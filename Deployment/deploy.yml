@@ -2,9 +2,9 @@
 - name: Pull Docker Image of Calculator 
   hosts: all 
   vars: 
-    ansible_python_interpreter: /usr/bin/python3
+    ansible_python_interpreter: /usr/bin/python3 
   tasks: 
-    - name: Pull image 
+    - name: Pull image
       docker_image: 
         name: nvsailikhith/scientific-calculator:latest 
         source: pull 
