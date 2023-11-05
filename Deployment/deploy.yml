@@ -13,4 +13,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker create -it --name Scientific-Calculator nvsailikhith/scientific-calculator
+      shell: 'docker create -it --name Scientific-Calculator nvsailikhith/scientific-calculator'
