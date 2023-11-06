@@ -43,22 +43,15 @@ public class Main
             int number2 = sc.nextInt();
             
             switch(operation) {
-                case 1: 
-                    System.out.println("Result of adding " + number2 + " to " + number1 + " is " + add(number1, number2));
-                    break;
-                case 2: 
-                    System.out.println("Result of subtracting " + number2 + " from " + number1 + " is " + add(number1, number2));
-                    break;
-                case 3: 
-                    System.out.println("Result of multiplying " + number2 + " with " + number1 + " is " + add(number1, number2));
-                    break;
+                case 1: System.out.println("Result of adding " + number2 + " to " + number1 + " is " + add(number1, number2));
+                case 2: System.out.println("Result of subtracting " + number2 + " from " + number1 + " is " + add(number1, number2));
+                case 3: System.out.println("Result of multiplying " + number2 + " with " + number1 + " is " + add(number1, number2));
                 case 4: 
                     if(number2 == 0) {
                         System.out.println("number2 expects non-zero integer");
-                        break;
                     }
                     System.out.println("Result of dividing " + number1 + " by " + number2 + " is " + add(number1, number2));
-                    break;
+                
             }
 
         }
