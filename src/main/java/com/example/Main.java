@@ -33,7 +33,6 @@ public class Main
 
             operation = sc.nextInt();
 
-            
             if(operation==5){
                 sc.close();
                 System.out.println("Application Closed!\n");
